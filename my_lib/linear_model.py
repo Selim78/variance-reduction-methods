@@ -1,5 +1,5 @@
 import numpy as np
-import solvers
+from my_lib import solvers
 
 class LogisticRegression:
     """
