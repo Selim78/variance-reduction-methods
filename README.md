@@ -1,13 +1,13 @@
-#Variance Reduction Methods
+# Variance Reduction Methods
 
 Partial re-implementation of [`sklearn.linear_model.LogisticRegression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) (using only numpy) to illustrate the use of variance reduction methods in stochastic optimization.
 
 ![](https://i.imgur.com/pA8hGhZ.png)
 
-##Contents
+## Contents
 
-* A small [report]() on the intuition behind stochastic variance reduction in optimisation & how to use the code.
-[![Report.html](https://i.imgur.com/rBv3QzQ.png)]()
+* A small [report](https://selim78.github.io/variance-reduction-methods/) on the intuition behind stochastic variance reduction in optimisation & how to use the code.
+[![Report.html](https://i.imgur.com/9EMkAMh.png)](https://selim78.github.io/variance-reduction-methods/)
 
 * `Report.ipynb`: same as the html report, in case you want to reproduce the results
 * Implementation broken down into:
@@ -17,7 +17,7 @@ Partial re-implementation of [`sklearn.linear_model.LogisticRegression`](https:/
 
     * [Student performance](http://archive.ics.uci.edu/ml/datasets/Student+Performance) dataset: `data/`
 
-##Reproducing the results
+## Reproducing the results
 
 To get started with the `Report.ipynb` notebook, create an environment using the dependencies file:
 
