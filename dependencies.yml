@@ -1,0 +1,9 @@
+name: vrm
+dependencies:
+  - python=3.6
+  - numpy
+  - ipykernel
+  - pandas
+  - seaborn
+  - matplotlib
+  - joblib
