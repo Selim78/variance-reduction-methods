@@ -9,7 +9,7 @@ Partial re-implementation of [`sklearn.linear_model.LogisticRegression`](https:/
 * A small [report](https://selim78.github.io/variance-reduction-methods/) on the intuition behind stochastic variance reduction in optimisation & how to use the code.
 [![Report.html](https://i.imgur.com/9EMkAMh.png)](https://selim78.github.io/variance-reduction-methods/)
 
-* `Report.ipynb`: same as the html report, in case you want to reproduce the results
+* [`Report.ipynb`](https://nbviewer.jupyter.org/github/selim78/variance-reduction-methods/blob/master/Report.ipynb): same as the html report, in case you want to reproduce the results
 * Implementation broken down into:
     * `linear_model.py`
     * `solvers.py`
@@ -19,7 +19,7 @@ Partial re-implementation of [`sklearn.linear_model.LogisticRegression`](https:/
 
 ## Reproducing the results
 
-To get started with the `Report.ipynb` notebook, create an environment using the dependencies file:
+To get started with the [`Report.ipynb`](https://nbviewer.jupyter.org/github/selim78/variance-reduction-methods/blob/master/Report.ipynb) notebook, create an environment using the dependencies file:
 
 ```bash
 conda env create --file dependencies.yml
